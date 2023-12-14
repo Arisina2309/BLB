@@ -14,7 +14,7 @@ Here are some test codes to see how you can use the functions inside the BLB pac
 ```{r }
 n <- 1000 # Draws from X 
 d <- 100 # Dimension of X
-b = floor(n^(.7))
+b = floor(n^(.7)) # subset size
 X <- matrix(0, nrow = n, ncol = d)
 for(i in 1:d){
   X[,i] <- rt(n, 3) # T3 generation
@@ -30,7 +30,7 @@ blb_linear_regression(X, Y, b, s, r)
 ```{r }
 n <- 1000 # Draws from X 
 d <- 100 # Dimension of X
-b = floor(n^(.7))
+b = floor(n^(.7)) # subset size
 X <- matrix(0, nrow = n, ncol = d)
 for(i in 1:d){
   X[,i] <- rt(n, 1) # T1/Cauchy generation

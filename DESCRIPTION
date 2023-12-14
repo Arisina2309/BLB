@@ -1,0 +1,14 @@
+Package: BLB
+Title: Bag of Little Bootstraps
+Version: 0.0.0.9000
+Authors@R: 
+    person("Arisina", "Banerjee", , "ab2957@cornell.edu", role = c("aut", "cre"))
+Description: Contains functions to implement the bag of little bootstrap algorithm in linear and quantile regression settings
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
